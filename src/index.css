@@ -9,13 +9,18 @@ html,
 body {
   height: 100%;
   color: #4185f4;
-  font-size: 80px;
 }
 
-.container {
+.container,
+.hoc {
   margin: 5% auto;
   width: 80%;
   text-align: center;
+  font-size: 80px;
+}
+
+.hoc {
+  font-size: 20px;
 }
 
 button {
